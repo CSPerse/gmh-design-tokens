@@ -83,6 +83,7 @@
     "neutral-variant.95": { "value": "#EFF1F5", "type": "color" },
     "neutral-variant.98": { "value": "#F8F9FE", "type": "color" },
     "neutral-variant.99": { "value": "#FCFCFF", "type": "color" },
+    "neutral-variant.100": { "value": "#FFFFFF", "type": "color" },
     "color.black": { "value": "#000000", "type": "color" },
     "color.white": { "value": "#FFFFFF", "type": "color" }
   },
@@ -188,6 +189,22 @@
     "dark.surfaceContainerHigh" : { "value": "#282A2C", "type": "color" },
     "dark.surfaceContainerHighest" : { "value": "#333537", "type": "color" }
   },
+  "$themes": [
+    {
+      "name": "Light Mode",
+      "selectedTokenSets": {
+        "global": "enabled",
+        "light": "enabled"
+      }
+    },
+    {
+      "name": "Dark Mode",
+      "selectedTokenSets": {
+        "global": "enabled",
+        "dark": "enabled"
+      }
+    }
+  ],
   "$metadata": {
     "tokenSetOrder": [ "global", "light", "dark" ]
   }
