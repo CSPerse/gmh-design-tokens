@@ -342,6 +342,72 @@
       "99": {
         "value": "#FCFCFF",
         "type": "color"
+      },
+      "100": {
+        "value": "#FFFFFF",
+        "type": "color"
+      }
+    },
+    "base": {
+      "black": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "white": {
+        "value": "#FFFFFF",
+        "type": "color"
+      }
+    }
+  },
+  "fixed": {
+    "fixed": {
+      "primary": {
+        "value": "#CAE6FF",
+        "type": "color"
+      },
+      "onPrimary": {
+        "value": "#001E30",
+        "type": "color"
+      },
+      "primaryDim": {
+        "value": "#A0CBF0",
+        "type": "color"
+      },
+      "onPrimaryVariant": {
+        "value": "#1B4B69",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#F6E1AB",
+        "type": "color"
+      },
+      "onSecondary": {
+        "value": "#241A00",
+        "type": "color"
+      },
+      "secondaryDim": {
+        "value": "#D9C591",
+        "type": "color"
+      },
+      "onSecondaryVariant": {
+        "value": "#53451D",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "#CDE5FF",
+        "type": "color"
+      },
+      "onTertiary": {
+        "value": "#001D32",
+        "type": "color"
+      },
+      "tertiaryDim": {
+        "value": "#94CCFF",
+        "type": "color"
+      },
+      "onTertiaryVariant": {
+        "value": "#004B74",
+        "type": "color"
       }
     },
     "color": {
@@ -475,54 +541,6 @@
       },
       "inversePrimary": {
         "value": "#A0CBF0",
-        "type": "color"
-      },
-      "primaryFixed": {
-        "value": "#CAE6FF",
-        "type": "color"
-      },
-      "onPrimaryFixed": {
-        "value": "#001E30",
-        "type": "color"
-      },
-      "primaryFixedDim": {
-        "value": "#A0CBF0",
-        "type": "color"
-      },
-      "onPrimaryFixedVariant": {
-        "value": "#1B4B69",
-        "type": "color"
-      },
-      "secondaryFixed": {
-        "value": "#F6E1AB",
-        "type": "color"
-      },
-      "onSecondaryFixed": {
-        "value": "#241A00",
-        "type": "color"
-      },
-      "secondaryFixedDim": {
-        "value": "#D9C591",
-        "type": "color"
-      },
-      "onSecondaryFixedVariant": {
-        "value": "#53451D",
-        "type": "color"
-      },
-      "tertiaryFixed": {
-        "value": "#CDE5FF",
-        "type": "color"
-      },
-      "onTertiaryFixed": {
-        "value": "#001D32",
-        "type": "color"
-      },
-      "tertiaryFixedDim": {
-        "value": "#94CCFF",
-        "type": "color"
-      },
-      "onTertiaryFixedVariant": {
-        "value": "#004B74",
         "type": "color"
       },
       "surfaceDim": {
@@ -677,50 +695,6 @@
         "value": "#366382",
         "type": "color"
       },
-      "primaryFixed": {
-        "value": "#CAE6FF",
-        "type": "color"
-      },
-      "onPrimaryFixed": {
-        "value": "#001E30",
-        "type": "color"
-      },
-      "primaryFixedDim": {
-        "value": "#A0CBF0",
-        "type": "color"
-      },
-      "onPrimaryFixedVariant": {
-        "value": "#1B4B69",
-        "type": "color"
-      },
-      "secondaryFixed": {
-        "value": "#F6E1AB",
-        "type": "color"
-      },
-      "onSecondaryFixed": {
-        "value": "#241A00",
-        "type": "color"
-      },
-      "secondaryFixedDim": {
-        "value": "#D9C591",
-        "type": "color"
-      },
-      "onSecondaryFixedVariant": {
-        "value": "#53451D",
-        "type": "color"
-      },
-      "tertiaryFixed": {
-        "value": "#CDE5FF",
-        "type": "color"
-      },
-      "onTertiaryFixed": {
-        "value": "#001D32",
-        "type": "color"
-      },
-      "tertiaryFixedDim": {
-        "value": "#94CCFF",
-        "type": "color"
-      },
       "onTertiaryFixedVariant": {
         "value": "#004B74",
         "type": "color"
@@ -759,6 +733,7 @@
   "$metadata": {
     "tokenSetOrder": [
       "global",
+      "fixed",
       "light",
       "dark"
     ]
